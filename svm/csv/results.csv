@@ -1,0 +1,11 @@
+Iteration,Best Hyperparameters,Recall,F1 Score
+1,"{'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}",0.53,0.5272200855842161
+2,"{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}",0.575,0.5819224430137718
+3,"{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}",0.58,0.5802743354048985
+4,"{'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}",0.63,0.6309265974121256
+5,"{'C': 10, 'gamma': 'auto', 'kernel': 'rbf'}",0.63,0.6310813054754303
+6,"{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}",0.605,0.6036744399763045
+7,"{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}",0.63,0.6323372348635506
+8,"{'C': 1, 'gamma': 'auto', 'kernel': 'rbf'}",0.575,0.5641108323514377
+9,"{'C': 10, 'gamma': 'auto', 'kernel': 'rbf'}",0.665,0.6579000197398923
+10,"{'C': 10, 'gamma': 'auto', 'kernel': 'rbf'}",0.625,0.6187574620780496
