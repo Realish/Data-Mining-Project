@@ -1,7 +1,2 @@
-# Data-Mining-Project
-Transformation of Data Code. To add compression to the GTZAN wav files we must run the compress_data.m file. 
-For this code we use the Audio Toolbox in Matlab. This contains many audio engineering tools like compression and equalization. 
-We loop through all of the files in the data folder and apply the dynamic range compressor to each file. We give the 
-file a new name that is the old name but with compressed in front of it. Then we write the output file to a folder called 
-compressed data. The ratio is changed from 10:1 to 2:1 for the second batch of compressed data. We use the same process for 
-the equalization effect.
+# Improvement of Music Genre Classifiers Under Compressed Audio Data
+We improved several music genre classifiers including support vector machines and different types of recurrent neural networks by applying light and heavy audio compression to the music GTZAN data set. First download the GTZAN dataset which contains 1000 songs split into 10 genres. Then run the compress_data.m file in the Transform Data folder that applies dynamic range compression to all the songs in the GTZAN data set. Run this twice, one for light compression (2:1 ratio) and one for heavy compression (10:1 ratio). Then we must extract features by running the files in the Feature Extraction folder. Now we run our models on the three datasets to obtain our accuracy measurements. 
